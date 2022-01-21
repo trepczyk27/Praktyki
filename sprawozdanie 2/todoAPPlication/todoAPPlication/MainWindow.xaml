@@ -1,0 +1,19 @@
+﻿<Window x:Class="todoAPPlication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:todoAPPlication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="313" Width="717" Background="#FFE0E09F">
+    <Grid Margin="0,0,307,148">
+        <Label Content="Utworz nowe zadanie&#xD;&#xA;" Margin="99,0,-52,123"/>
+        <TextBox x:Name="task" HorizontalAlignment="Left" Margin="76,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"/>
+        <Button x:Name="Dodaj" Content="Dodaj;" Margin="42,92,271,7" Click="Dodaj_Click"/>
+        <Button Content="Edytuj&#xD;&#xA;" Margin="161,92,152,7" Click="Button_Click_1"/>
+        <Button Content="Usuń&#xD;&#xA;" Margin="295,92,10,7" Click="Button_Click"/>
+        <Label x:Name="list" Content="" Margin="480,25,-280,-60"/>
+    </Grid>
+
+
+</Window>
